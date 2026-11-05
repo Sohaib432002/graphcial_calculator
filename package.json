@@ -1,0 +1,11 @@
+{
+  "name": "graphica",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Graphing calculator: linear, quadratic, cubic, quartic, exponential, logarithmic and custom functions",
+  "scripts": {
+    "test": "node --test tests/math.test.js",
+    "start": "npx --yes serve -l 3400 ."
+  }
+}
